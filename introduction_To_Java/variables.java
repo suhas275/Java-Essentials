@@ -9,11 +9,11 @@ public class variables
         float f = 5.5f;
         double d = 5.5;
         char c = 'A';
-        c = 66; // American standard code for information interchange
-        System.out.println(c);
+        c = 65; // American standard code for information interchange
+        // System.out.println(c);
 
         double d1 = 5; //implicit conversion
         int k = (int)5.64; //type casting
-        // System.out.println(k);
+        System.out.println(k);
     }
 }
