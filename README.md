@@ -1,3 +1,6 @@
+## Java Zero to Advance Notes
+https://zinc-venus-4fd.notion.site/Java-Notes-245f189ac9b480458531e44b8c26d067
+
 ## Introduction to Programming
 https://zinc-venus-4fd.notion.site/Introduction-to-Programming-8b0adde4ff604e368a79c88f59f90296
 
