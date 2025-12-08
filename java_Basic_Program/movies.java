@@ -2,13 +2,18 @@ interface bark{
     String voice = "woof";
 
     void display();
+
 }
 
 public class movies implements bark {
 
     public void display(){
         System.out.println("bow bow");
+
     }
+    int a = 1;
+    int b = 2;
+    int  sum = a + b;
 
 
 

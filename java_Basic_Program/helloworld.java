@@ -1,6 +1,7 @@
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Locale;
+import java.util.Scanner;
 
 //write a class for finding the headset and a phone
 //class homies{
@@ -18,8 +19,40 @@ import java.util.Locale;
 //    }
 //}
 
-
 public class helloworld {
+
+    public static void gussingNumber(){
+    Scanner sc = new Scanner(System.in);
+
+    int number = 1 +(int) (100 * Math.random());
+
+    int k = 5;
+
+    System.out.println("A number is chosen between 1 to 100.");
+    System.out.println("you have " +k+ "attempts to guess the correct number");
+
+    for (int i=0; i < k; i++){
+        System.out.println("Enter your guess:");
+        int guess = sc.nextInt();
+
+        if (guess == number){
+            System.out.println("Congratulations you guessed the correct number");
+            sc.close();
+            return;
+        }
+        else if (guess < number){
+            System.out.println("The number is greater than " +guess);
+        }
+        else {
+        System.out.println("the number is less than" +guess);
+        }
+    }
+    System.out.println("you've exhausted all the attempts.The correct number is: " +number);
+    sc.close();
+}
+
+
+
     public static void main(String[] args) {
 //        int[] a = new int[]{1, 2, 3, 4, 5};
 //        System.out.println(a[3]);
@@ -156,13 +189,58 @@ public class helloworld {
 //
 //        System.out.println(arrNumber[2]);
 //        System.out.println(names[1]);
+//        int a = 20, b = 10, c = 30, result;
+//
+//        result = ((a > b) ? (a > c) ? a : c : (b > c) ? b : c);
+//        System.out.println("Max of three numbers = "+ result);
 
 
-        int a = 20, b = 10, c = 30, result;
+//        int i = 20;
+//        if (i > 23){
+//            System.out.println(i);
+//
+//            if (i == 20){
+//                System.out.println("we are same" +i);
+//            }
+//        }
+//        else {
+//            System.out.println("it's not");
+//        }
 
-        result = ((a > b) ? (a > c) ? a : c : (b > c) ? b : c);
-        System.out.println("Max of three numbers = "+ result);
+//        for (int i=2; i<=0; i++){
+//            System.out.println(i);
+//        }
+
+//        int a = 1;
+//        do {
+//            System.out.println(a++);
+//
+//        }while (a <=10);
+//    }
+//        for (int g = 0; g < 5; g++) {
+//            if (g == 3) {
+//                System.out.println();
+//
+//                continue;
+//            }
+//            System.out.println(g);
+//
+//        }
+//        for (int i = 0; i < 5; i++) {
+//            if (i == 2){
+//                System.out.println();
+//                // using continue keyword
+//                // to skip the current iteration
+//                continue;
+//            }
+//            System.out.println(i);
+//        }
+//        int i = 1;
+//        while (i <= 5) {
+//            System.out.println("Hello" );
+//        }
 
 
+      gussingNumber();
     }
 }
