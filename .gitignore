@@ -1,5 +1,5 @@
 # Ignore compiled Java class files
 *.class
 Java-Essentials.iml
-./out
+out
 .vscode
