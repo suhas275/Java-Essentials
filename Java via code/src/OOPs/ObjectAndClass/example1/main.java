@@ -1,4 +1,4 @@
-package OOPs.objectAndClass.example1;
+package OOPs.ObjectAndClass.example1;
 
 public class main {
     public static void main(String[] args) {
