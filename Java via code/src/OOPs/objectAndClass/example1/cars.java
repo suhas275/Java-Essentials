@@ -1,4 +1,4 @@
-package constructorAndGetterCall.example1;
+package OOPs.objectAndClass.example1;
 
 public class cars {
 
