@@ -1,6 +1,7 @@
 public class variableNomenclature {
 
     public static void main(String[] args){
+
         int decimalLiteral = 8;
 
         int octalLiteral = 012; //The octal number system is a base-8 system using digits (0–7): 0, 1, 2, 3, 4, 5, 6, and 7.
