@@ -1,7 +1,5 @@
 package OOPs.Inherentence;
 
-import TempDirectoryToRunCode.Animal;
-
 public class Dog extends Animal {
 
     private String earShape;

@@ -1,9 +1,5 @@
 package OOPs.Inherentence;
 
-import TempDirectoryToRunCode.Animal;
-import TempDirectoryToRunCode.Dog;
-import TempDirectoryToRunCode.Fish;
-
 public class Main {
 
     public static void main(String[] args) {

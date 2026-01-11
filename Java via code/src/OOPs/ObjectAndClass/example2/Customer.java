@@ -1,4 +1,4 @@
-package OOPs.objectAndClass.example2;
+package OOPs.ObjectAndClass.example2;
 
 public class Customer {
     private String name;
