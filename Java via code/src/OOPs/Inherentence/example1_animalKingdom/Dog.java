@@ -1,4 +1,4 @@
-package OOPs.Inherentence;
+package OOPs.Inherentence.example1_animalKingdom;
 
 public class Dog extends Animal {
 
