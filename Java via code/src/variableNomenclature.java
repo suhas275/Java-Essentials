@@ -1,6 +1,6 @@
 public class variableNomenclature {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         int decimalLiteral = 8;
 
@@ -20,7 +20,15 @@ public class variableNomenclature {
 
         boolean condition = true;
 
+        String name = "John";  //string literal
 
-        System.out.println(a);
+        String textBlock = """
+                This  is a new feature:
+                            \u2022 \t Introduced in JDK 15 where you can write a block of text
+                               \u2022  In the format you need.
+                """;
+
+
+        System.out.println(textBlock);
     }
 }
