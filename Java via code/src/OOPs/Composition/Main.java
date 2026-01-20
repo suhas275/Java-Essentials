@@ -1,5 +1,7 @@
 package OOPs.Composition;
 
+// NOTE: Inheretene defines IS A relationship
+//       Composition defines HAS A relationship
 public class Main {
 
     public static void main(String[] args) {
